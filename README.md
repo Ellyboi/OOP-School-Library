@@ -1,4 +1,4 @@
-# ## Morse Code Ruby
+# ## School Library
 
 <a name="readme-top"></a>
     
@@ -24,15 +24,13 @@
   - [🤝 Contributing ](#-contributing-)
   - [📝 License ](#-license-)
 
-# 📖 Morse Code Ruby <a name="about-project">Morse Code Ruby</a>
+# 📖 School Library <a name="about-project">School Library</a>
 
-**Morse Code Ruby** is a Morse Code decoder written in Ruby. Its primary goal is to decode Morse Code messages into English text.
+**School Library** is aSchool Library written in Ruby using OOP.
 
 Description:
 
-During a seaside vacation, numerous old bottles containing parchments with Morse code messages were discovered. This led to the creation of this Ruby program, which is designed to automate the process of Morse code decryption.
 
-The program can convert a string of Morse code into English. It understands Morse code representations for all alphabets (both lower case and upper case), and numbers from 0-9.
 
 ## 🛠 Built With <a name="built-with"></a>
 
