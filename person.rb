@@ -1,4 +1,5 @@
-class Person
+require './nameable'
+class Person < Nameable
   def initialize(age, name = 'unknown', parent_permission: true)
     super()
     @name = name
