@@ -1,11 +1,12 @@
 require_relative 'person'
-class Teachers < Person
-  def extends(age, specialization, name = 'unknown', parent_permission: true)
-    super(age, name, parent_permission)
+
+class Teacher < Person
+  def initialize(age, specialization, name = 'Unknown', parent_permission: true)
+    super(age, name, parent_permission: parent_permission)
     @specialization = specialization
   end
 
   def can_use_services?
-    of_age || @parent_permission
+    true
   end
 end

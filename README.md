@@ -1,68 +1,45 @@
-# ## School Library
-
 <a name="readme-top"></a>
-    
-  <h3><b>School Library</b></h3>
 
+# UNN Library Management System
+
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Morse Code Ruby Morse Code Ruby](#-morse-code-ruby-morse-code-ruby)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  <!-- [🚀 Live Demo](#live-demo) -->
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+ - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-# 📖 School Library <a name="about-project">School Library</a>
+<!-- PROJECT DESCRIPTION -->
 
-**School Library** is aSchool Library written in Ruby using OOP.
+# 📖 UNN Library <a name="about-project"></a>
 
-Description:
-
-
+**UNN Library Management System** is designed to help you manage the books available in the library, keep track of borrowing activities, and maintain records of students and teachers. With this user-friendly tool, you can efficiently organize the library's resources and ensure a smooth borrowing experience for everyone.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
 <details>
-<summary>Backend</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">Ruby</a></li>
+    <li><a href="https://www.ruby-lang.org">Ruby</a></li>
   </ul>
 </details>
-
-### Key Features <a name="key-features"></a>
-
-- **Converts a single Morse code character into its corresponding English character.**
-- **Decodes an entire Morse code word into its corresponding English word..**
-- **Decodes an entire Morse code message into its corresponding English sentence.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-[Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-
-### Setup
 
 ```sh
   cd my-folder
@@ -71,43 +48,47 @@ In order to run this project you need:
 
 ```
 
-### Install
+<!-- Features -->
 
-This project does not require additional dependencies, just Ruby interpreter. However, it uses RuboCop as a linter and you should set it up as well.
+### Key Features <a name="key-features"></a>
 
-```sh
-bundle install
-```
+- **User Management:** The system allows you to add new students or teachers and maintain their details such as name, ID, and contact information. You can easily update user information as needed.
+- **Book Management:** You can add new books to the library and store essential book information.
+- **Borrowing Records:** The system enables you to record the borrower's information and borrowing date when a book is borrowed. It helps you keep track of the borrowing history of each book, monitor book availability, and manage overdue books.
 
-### Usage
 
-To run the project, navigate to the project directory and execute the following command:
-
-```sh
-  ruby morse_tranlator.rb
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-Run the following command
-```sh
-rubocop
-```
-
-### Deployment
-
-You can deploy this project using:
-
-Not available at the moment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+Ensure you have Ruby installed on your system. You can check by running the code below in your terminal.
+```sh
+  ruby --version
+```
+### Setup
+
+- Clone or download the Library Management System repository to your local machine.
+- Open your terminal and navigate to the project directory.
+
+### Usage
+- Run the `main.rb` script using the Ruby interpreter:
+
+```sh
+  ruby main.rb
+```
+- Enter your desired prompts from the options displayed.
+- The program will process and output your request.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
-
 
 👤 **Vitoesi Elijah**
 
@@ -115,23 +96,46 @@ Not available at the moment.
 - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
 - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/elijah-vitoesi/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **We will add a GUI.**
+- [ ] **User Interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions to the User Interface are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the project repository.
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give us a star ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Special thanks to the Ruby community for their support and contributions.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
