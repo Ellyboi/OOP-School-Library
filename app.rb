@@ -3,15 +3,16 @@ require_relative 'teacher'
 require_relative 'book'
 require_relative 'rental'
 
-OPERATIONS = {
-  1 => :list_books,
-  2 => :list_people,
-  3 => :create_person,
-  4 => :create_book,
-  5 => :create_rental,
-  6 => :list_rentals_for_person_id,
-  7 => :exit
-}.freeze
+class App
+  OPERATIONS = {
+    1 => :list_books,
+    2 => :list_people,
+    3 => :create_person,
+    4 => :create_book,
+    5 => :create_rental,
+    6 => :list_rentals_for_person_id,
+    7 => :exit
+  }.freeze
 
   def initialize
     @books = []
@@ -50,7 +51,7 @@ OPERATIONS = {
     if @books.empty?
       puts 'No books found'
     else
-      @books.each { |book| puts "TItle: #{book.title}, Author: #{book.author}" }
+      @books.each { |book| puts "Title: #{book.title}, Author: #{book.author}" }
     end
   end
 
@@ -79,10 +80,9 @@ OPERATIONS = {
     print 'Age: '
     age = gets.chomp.to_i
     print 'Name: '
-    name = gets.chomp.to_i
+    name = gets.chomp
     print 'Has parent permission? [Y/N]: '
-    parent_permission = gets.chomp
-    parent_permission = parent_permission.downcase == 'y'
+    parent_permission = gets.chomp.downcase == 'y'
     student = Student.new(age, name, parent_permission)
     puts 'Person created successfully'
     @people.push(student)
@@ -92,7 +92,7 @@ OPERATIONS = {
     print 'Age: '
     age = gets.chomp.to_i
     print 'Name: '
-    name = gets.chomp.to_i
+    name = gets.chomp
     print 'Specialization: '
     specialization = gets.chomp
     teacher = Teacher.new(age, name, specialization)
@@ -101,7 +101,7 @@ OPERATIONS = {
   end
 
   def create_book
-    print 'TItle: '
+    print 'Title: '
     title = gets.chomp
     print 'Author: '
     author = gets.chomp
