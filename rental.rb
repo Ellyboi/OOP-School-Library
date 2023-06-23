@@ -1,4 +1,4 @@
-require_relative './date'
+require_relative 'date'
 
 class Rental
   attr_accessor :date, :person, :book

@@ -3,16 +3,15 @@ require_relative 'teacher'
 require_relative 'book'
 require_relative 'rental'
 
-class App
-  OPERATIONS = {
-    1 => :List_books,
-    2 => :liist_people,
-    3 => :create_person,
-    4 => :create_book,
-    5 => :create_rental,
-    6 => :List_rentals_for_person_id,
-    7 => :exit
-  }.freeze
+OPERATIONS = {
+  1 => :list_books,
+  2 => :list_people,
+  3 => :create_person,
+  4 => :create_book,
+  5 => :create_rental,
+  6 => :list_rentals_for_person_id,
+  7 => :exit
+}.freeze
 
   def initialize
     @books = []
