@@ -95,6 +95,11 @@ Ensure you have Ruby installed on your system. You can check by running the code
 - GitHub: [@Ellyboi] (https://github.com/Ellyboi)
 - Twitter: [@Elijahvitoesi] (https://twitter.com/Elijahvitoesi)
 - LinkedIn: [Vitoesi Elijah] (https://www.linkedin.com/in/elijah-vitoesi/)
+- 
+
+👤 **Daniel Falcon**
+- GitHub: [Danfall369](https://github.com/Danfall369)
+- LinkedIn: [Danfall369](https://www.linkedin.com/in/danfall/)
 
 <!-- FUTURE FEATURES -->
 
