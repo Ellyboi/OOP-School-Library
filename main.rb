@@ -1,17 +1,10 @@
-require_relative 'app'
-require_relative 'menu'
+require './options'
 
 def main
-  app = App.new
-
-  loop do
-    display_menu
-    choice = gets.chomp.to_i
-
-    break unless process_choice(choice, app)
-
-    puts "\n"
-  end
+  puts '------------------------------------'
+  puts 'WELCOME TO ELAS SCHOOL LIBRARY APP'
+  puts '-------------------------------------'
+  Options.new
 end
 
 main
